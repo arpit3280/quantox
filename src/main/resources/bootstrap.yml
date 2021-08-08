@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: machine
+  datasource:
+    url: jdbc:mysql://localhost:3306/quantox?characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: mercury
